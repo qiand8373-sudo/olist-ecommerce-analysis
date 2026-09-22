@@ -1,0 +1,10 @@
+# 原始数据不入库（公开数据集，见 README 数据来源）
+data/*.csv
+data/*.db
+
+# Python
+__pycache__/
+*.pyc
+
+# 图表可入库（作为分析产出物展示），如需排除取消下行注释
+# report/figures/
